@@ -103,7 +103,7 @@ export default function Hero() {
   const typingTexts = [
     "Machine Learning Engineer",
     "Reinforcement Learning Researcher",
-    "AI Solution Architect",
+    "AI Solution Engineer",
   ];
 
   return (
