@@ -42,13 +42,18 @@ export default function About() {
             className="lg:col-span-3 space-y-5 text-muted leading-relaxed"
           >
             <p className="text-foreground text-lg">
-              AI/ML 분야에서 연구부터 프로덕션까지 아우르는 풀스택 경험을 갖춘
-              엔지니어입니다.
+              강화학습 연구에서 시작해, 의료 AI 제품화, 대규모 검색 최적화,
+              그리고 엔터프라이즈 AI 솔루션까지 — AI의 연구와 비즈니스 양면을
+              경험한 엔지니어입니다.
             </p>
             <p>
-              도쿄대학교에서 강화학습과 Game AI를 연구한 것을 시작으로,
-              의료 AI 스타트업 VUNO에서 뇌 MRI 기반 알츠하이머 진단 모델을
-              개발하고 임상시험을 지원했습니다.
+              도쿄대학교에서 Attention 모듈을 개량하여 강화학습에 적용하는
+              연구를 했습니다.
+            </p>
+            <p>
+              이후 의료 AI 스타트업 VUNO에서 뇌 MRI 기반 알츠하이머 진단
+              모델을 개발하고 임상시험을 지원했으며, RSNA 2021 Research of
+              the Day에 선정되었습니다.
             </p>
             <p>
               이후 NAVER에서 검색 랭킹 최적화를 위한 온라인 ML 파이프라인을
