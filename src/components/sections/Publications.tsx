@@ -67,11 +67,6 @@ function PaperCard({
           {type === "journal" ? "Journal" : "Workshop"}
         </span>
         <span className="text-xs text-muted">{paper.year}</span>
-        {paper.note && (
-          <span className="text-xs font-medium px-2.5 py-0.5 rounded-full bg-primary/10 text-primary">
-            {paper.note}
-          </span>
-        )}
       </div>
 
       <h4 className="font-semibold text-foreground text-sm md:text-base leading-snug mb-2 group-hover:text-primary transition-colors">

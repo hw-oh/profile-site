@@ -61,8 +61,41 @@ export default function About() {
               리더보드를 설립/운영하고 있습니다.
             </p>
 
-            {/* Research Interests */}
+            {/* Tech Stack */}
             <div className="pt-4">
+              <h3 className="text-foreground font-semibold text-sm uppercase tracking-wider mb-3">
+                AI / ML Frameworks
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                {skills.frameworks.map((item) => (
+                  <span
+                    key={item}
+                    className="px-3 py-1.5 text-sm rounded-lg border border-orange-400/20 bg-orange-400/10 text-orange-400 font-medium"
+                  >
+                    {item}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div className="pt-2">
+              <h3 className="text-foreground font-semibold text-sm uppercase tracking-wider mb-3">
+                Programming
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                {skills.languages.map((item) => (
+                  <span
+                    key={item}
+                    className="px-3 py-1.5 text-sm rounded-lg border border-sky-400/20 bg-sky-400/10 text-sky-400 font-medium"
+                  >
+                    {item}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            {/* Research Interests */}
+            <div className="pt-2">
               <h3 className="text-foreground font-semibold text-sm uppercase tracking-wider mb-3">
                 Research Interests
               </h3>
