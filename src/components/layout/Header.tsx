@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import ThemeToggle from "@/components/ui/ThemeToggle";
+
 
 const navLinks = [
   { label: "About", href: "#about" },
@@ -80,12 +80,12 @@ export default function Header() {
               </a>
             );
           })}
-          <ThemeToggle />
+
         </nav>
 
         {/* Mobile menu button */}
         <div className="flex items-center gap-3 md:hidden">
-          <ThemeToggle />
+
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
             className="h-9 w-9 flex items-center justify-center rounded-lg bg-surface-secondary border border-foreground/10"

@@ -65,9 +65,6 @@ export default function Contact() {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Get in Touch
           </h2>
-          <p className="text-muted max-w-lg mx-auto">
-            AI/ML 협업, 기술 자문, 강연/워크숍 요청 등 편하게 연락주세요.
-          </p>
         </motion.div>
 
         {/* Contact cards grid */}

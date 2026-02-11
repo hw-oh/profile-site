@@ -47,8 +47,8 @@ export default function About() {
               경험한 엔지니어입니다.
             </p>
             <p>
-              도쿄대학교에서 Attention 모듈을 개량하여 강화학습에 적용하는
-              연구를 했습니다.
+              도쿄대학교에서 Attention 메커니즘으로 RNN을 개량하고, 이를
+              강화학습에 적용하는 연구를 했습니다.
             </p>
             <p>
               이후 의료 AI 스타트업 VUNO에서 뇌 MRI 기반 알츠하이머 진단
